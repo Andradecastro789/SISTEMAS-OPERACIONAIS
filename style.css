@@ -10,7 +10,6 @@ body{
     color:#111827;
 }
 
-/* NAVBAR */
 .navbar{
     display:flex;
     justify-content:space-between;
@@ -55,7 +54,7 @@ body{
     border:none;
 }
 
-/* HERO */
+
 .hero{
     padding:80px 8%;
     text-align:center;
@@ -74,7 +73,7 @@ body{
     color:#6b7280;
 }
 
-/* BOTÕES */
+
 .hero-buttons{
     margin-top:20px;
 }
@@ -95,7 +94,7 @@ body{
     text-decoration:none;
 }
 
-/* SECTION */
+
 .section{
     margin:40px 8%;
 }
@@ -110,7 +109,7 @@ body{
     margin-top:15px;
 }
 
-/* TIMELINE */
+
 .timeline{
     margin:40px 8%;
 }
@@ -128,7 +127,7 @@ body{
     border:1px solid #e5e7eb;
 }
 
-/* CARDS */
+
 .cards{
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
@@ -142,12 +141,11 @@ body{
     border:1px solid #e5e7eb;
 }
 
-/* LISTA */
 ul li{
     margin:8px 0;
 }
 
-/* FOOTER */
+
 footer{
     background:#0f172a;
     color:white;
@@ -156,7 +154,7 @@ footer{
     margin-top:40px;
 }
 
-/* RESPONSIVO */
+
 @media(max-width:768px){
     .nav{
         display:none;
@@ -189,7 +187,7 @@ body{
     color: white;
 }
 
-/* NAVBAR */
+
 .navbar{
     position: fixed;
     top: 0;
@@ -218,10 +216,10 @@ body{
     color: #38bdf8;
 }
 
-/* MENU */
 
 
-/* HERO */
+
+
 .hero{
     padding: 140px 8% 80px;
     text-align: center;
@@ -240,7 +238,6 @@ body{
     color: #94a3b8;
 }
 
-/* BOTÕES */
 .hero-buttons{
     margin-top: 25px;
     display: flex;
@@ -265,7 +262,7 @@ body{
     text-decoration: none;
 }
 
-/* CONTEÚDO */
+
 .content{
     padding: 80px 8%;
     max-width: 900px;
@@ -282,7 +279,6 @@ body{
     margin-bottom: 15px;
 }
 
-/* CARDS */
 .cards{
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(220px,1fr));
@@ -304,14 +300,14 @@ body{
     background: rgba(56,189,248,0.08);
 }
 
-/* FOOTER */
+
 footer{
     text-align: center;
     padding: 30px;
     color: #64748b;
 }
 
-/* RESPONSIVO */
+
 @media(max-width:768px){
 
     .nav{
@@ -337,7 +333,6 @@ footer{
         font-size: 2rem;
     }
 }
-/* RESET */
 * {
     margin: 0;
     padding: 0;
@@ -351,7 +346,7 @@ body {
     line-height: 1.6;
 }
 
-/* NAVBAR */
+
 .navbar {
     width: 100%;
     padding: 18px 8%;
@@ -393,7 +388,7 @@ body {
     color: #38bdf8;
 }
 
-/* BOTÃO MOBILE */
+
 .menu-btn {
     display: none;
     color: white;
@@ -401,9 +396,8 @@ body {
     cursor: pointer;
 }
 
-/* HERO */
 .hero {
-    padding-top: 110px; /* 🔥 ESSENCIAL POR CAUSA DO FIXED */
+    padding-top: 110px;
     padding: 120px 8% 60px;
 }
 
@@ -436,7 +430,7 @@ body {
     width: 300px;
 }
 
-/* CARD */
+
 main {
     padding: 60px 8%;
 }
@@ -450,7 +444,6 @@ main {
     border: 1px solid #e5e7eb;
 }
 
-/* FOOTER */
 footer {
     text-align: center;
     padding: 20px;
@@ -1520,7 +1513,7 @@ body{
     margin:8px 0;
 }
 
-/* FOOTER */
+/
 footer{
     text-align:center;
     padding:20px;
@@ -1528,7 +1521,7 @@ footer{
     color:white;
 }
 
-/* RESPONSIVO */
+
 @media(max-width:768px){
     .menu{
         display:none;
