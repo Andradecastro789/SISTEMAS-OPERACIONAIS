@@ -1,33 +1,23 @@
-# Dependências
 node_modules/
 
-# Logs
 *.log
 
-# Arquivos do sistema
 .DS_Store
 Thumbs.db
 
-# VS Code
 .vscode/
 
-# Arquivos temporários
 *.tmp
 *.temp
 
-# Ambiente
 .env
 
-# Build
 dist/
 build/
 
-# Cache
 .cache/
 
-# Netlify / Vercel
 .vercel/
 .netlify/
 
-# Arquivos compactados
 *.zip
