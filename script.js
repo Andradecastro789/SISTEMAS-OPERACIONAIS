@@ -24,7 +24,7 @@ window.addEventListener("load", showOnScroll);
 
 document.addEventListener("DOMContentLoaded", () => {
 
-    // MENU RESPONSIVO
+ 
     const menuBtn = document.querySelector(".menu-btn");
     const menu = document.querySelector(".menu");
 
@@ -32,7 +32,7 @@ document.addEventListener("DOMContentLoaded", () => {
         menu.classList.toggle("show");
     });
 
-    // ANIMAÇÃO AO ROLAR
+    
     const elements = document.querySelectorAll(
         ".card, .box, .terminal"
     );
@@ -65,7 +65,7 @@ function toggleMenu(){
     document.getElementById("menu").classList.toggle("show");
 }
 
-// ANIMAÇÃO SIMPLES AO ROLAR
+
 window.addEventListener("scroll", () => {
     document.querySelectorAll(".card, .box").forEach(el => {
         const top = el.getBoundingClientRect().top;
